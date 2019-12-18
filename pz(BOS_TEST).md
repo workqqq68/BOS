@@ -59,14 +59,13 @@
 
 
 
-
-
-        ```bash
-	   hash("hello") = 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824
+    ```bash
+        hash("hello") = 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824
         hash("hello" + "QxLUF1bgIAdeQX") = 9e209040c863f84a31e719795b2577523954739fe5ed3b58a75cff2127075ed1
         hash("hello" + "bv5PehSMfV11Cd") = d1d3ec2e6f20fd420d50e2642992841d8338a314b8ea157c9e18477aaef226ab
         hash("hello" + "YYLmfY6IehjZMQ") = a49670c3c18b9e079b9cfaf51634f563dc8ae3070db2c4a8544305df1b60f007
-	```
+    ```
+
 Чтобы проверить, корректен ли пароль, нам нужна соль, поэтому обычно ее сохраняют в базе данных пользовательских аккаунтов вместе с хеш-кодом, или как часть самой строки хеш-кода.
 
 
